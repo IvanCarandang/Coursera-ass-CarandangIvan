@@ -11,13 +11,19 @@ h1 {
 
 body {
 	background-image: url("background.jpg");
-	background-color: #BF092F;
+	background-color: #ffffff;
 
 }
 
 p {
 	padding: 10px;
 	margin: 0;
+}
+
+div section{
+	margin: 10px;
+	padding: 10px;
+
 }
 
 .container {
@@ -29,50 +35,33 @@ p {
 	padding: 10px;
 }
 
-section {
-	border:	1px solid black;
-	background-color: #3B9797;
-	width: 100%;
-	height: auto;
-	font-family: Helvetica;
-	color: black;
-	position: relative;
-	overflow: auto;
-}
-
-#chicken {
+#section-1 {
 	border: 1px solid black;
 	text-align: center;
-	width: 30%;
-	margin-left: 70%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #FFFF00;
+	background-color: #70a9de;
 }
 
-#beef {
+#section-2 {
 	border: 1px solid black;
 	text-align: center;
-	width: 30%;
-	margin-left: 70%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: #16476A;
+	background-color: #aeb8bf;
 }
 
-#sushi {
+#section-3 {
 	border: 1px solid black;
 	text-align: center;
-	width: 30%;
-	margin-left: 70%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
@@ -83,30 +72,15 @@ section {
 	padding: 5px;
 }
 
-#chicken-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-#beef-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-#sushi-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
 .navbar-brand {
   font-size: 2em;
   border: 0 0 10px 10px;
-  color: #F25912;
+  color: #fefefe;
 }
 
 #header-nav {
   border: 0;
-  background-color: #FC5F06;
+  background-color: #ffffff;
   color: #F25912;
 }
 
